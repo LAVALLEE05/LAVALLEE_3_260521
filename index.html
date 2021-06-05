@@ -3,26 +3,13 @@
 
 <!-- Description de la page -->
 
-    <head>
-    <meta charset="UTF-8">
-    <title>Oh my food !</title>
-    <meta name="description" content="Roughly 155 characters">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/d6d0fa6156.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">  
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">  
-    
+<?php include("Head.php"); ?>
 
-    
-    </head>
+<body>
 
+     <!-- Header logo + nav -->
 
-    <body>
- 
-            <!-- Section 1 -->
+    <?php include("Header.php"); ?>
 
         <main>
             <h2 class="titleFunction">Fonctionnement</h2>
@@ -40,12 +27,10 @@
                 <div class="insideFunction">
                     <div class="number">3</div>
                     <div class="logoFunction"><i class="fas fa-store"></i></div>
-                        div class="textFunction">Dégustez au restaurant</div>
+                        <div class="textFunction">Dégustez au restaurant</div>
                 </div>
             </div>
         </main>
-
-        <!-- Section(1) Article principal -->
 
         <section>
             <h2>Restaurants</h2>
@@ -112,6 +97,9 @@
             </div>
         </section>
 
-         
-    </body>
-    </html>
+     <!-- bas de page -->
+
+    <?php include("footer.php"); ?>
+   
+</body>
+</html>
