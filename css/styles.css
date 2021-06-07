@@ -216,17 +216,22 @@ footer {
     line-height: 2rem;
   }
 
-  .footerLogo {
-    width: 3vw;
+  footer img {
+    width: 150px;
+    
+  }
+
+.footerLogo {
+    width: 1em;
     margin-right: 20px;
   }
 
-  .footerLigne {
+.footerLigne {
     display: flex;
     flex-direction: row;
   }
 
-  .contact {
+.contact {
     color: white;
   }
  
