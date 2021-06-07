@@ -77,6 +77,73 @@ header {
     background-image: linear-gradient(#ff93e1, #a16be0);
 }
 
+main {
+    background-color: white;
+  }
 
+h2 {
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding: 6vh 0vw 5vh 5vw;
+}
 
-   
+.function {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.insideFunction {
+    display: flex;
+    height: 70px;
+    width: 90%;
+    border-radius: 25px 15px 15px 25px;
+    margin-bottom: 2em;
+    background-color: #f6f6f6;
+    align-items: center;
+}
+
+.insideFunction:hover {
+    cursor: pointer;
+    background-color: #f2eafb;
+}
+    
+    
+.insideFunction:hover .logoFunction {
+    color: #9356DC;
+  }
+
+.number {
+    display: flex;
+     border: 2px solid #9356DC;
+    border-radius: 100%;
+    margin-left: -0.7rem;
+    margin-right: 20px;
+    width: 19px;
+    height: 19px;
+    color: white;
+    background-color: #9356DC;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.textFunction {
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+ section {
+    background-color: #f6f6f6;
+}
+
+  section h2 {
+    padding-left: 1em;
+}
