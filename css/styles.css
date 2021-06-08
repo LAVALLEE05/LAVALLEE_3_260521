@@ -135,6 +135,16 @@ h2 {
     font-size: 1.2rem;
 }
 
+#arrow {
+    width: 20px;
+    height: 20px;
+    color: black;
+    font-size: large;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+
 .textFunction {
     padding-left: 20px;
     font-size: 1rem;
