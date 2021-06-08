@@ -1,3 +1,5 @@
+/*Mobile*/
+
 body {
     margin: 0px;
     font-family: Roboto, sans-serif;
@@ -143,14 +145,14 @@ h2 {
     position: absolute;
     top: 20px;
     left: 30px;
-  }
+}
 
 .textFunction {
     padding-left: 20px;
     font-size: 1rem;
 }
 
- section {
+section {
     background-color: #f6f6f6;
 }
 
@@ -179,7 +181,7 @@ section h2 {
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 0 16px #0000002e;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
   }
 
   .heart1 {
