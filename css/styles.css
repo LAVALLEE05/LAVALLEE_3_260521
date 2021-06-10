@@ -79,8 +79,14 @@ header {
     background-image: linear-gradient(#ff93e1, #a16be0);
 }
 
+
 main {
     background-color: white;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
   }
 
 h2 {
@@ -112,7 +118,6 @@ h2 {
     cursor: pointer;
     background-color: #f2eafb;
 }
-    
     
 .insideFunction:hover .logoFunction {
     color: #9356DC;
@@ -174,15 +179,6 @@ section h2 {
     align-items: center;
   }
 
-.insideLabel {
-    position: relative;
-    width: 90vw;
-    height: 38vh;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 0 16px #0000002e;
-    margin-bottom: 10px; 
-  }
 
   .heart1 {
     position: absolute;
@@ -193,8 +189,9 @@ section h2 {
     font-size: 24px;
     bottom: 25px;
     right: 20px;
-}
-
+    cursor: pointer;
+  }
+  
 .heart2 {
     position: absolute;
     cursor: pointer;
@@ -204,8 +201,30 @@ section h2 {
     opacity: 0;
     font-size: 25px;
     bottom: 25px;
-    right: 2
-}
+    right: 20px;
+  }
+
+.heart2:hover {
+    opacity: 1;
+    transition: opacity 1.5s;
+  }
+
+.photoMenu {
+    width: 100vw;
+    height: 35vh;
+    text-align: center;
+    object-fit: cover;
+  }
+
+.insideLabel {
+    position: relative;
+    width: 90vw;
+    height: 38vh;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 16px #0000002e;
+    margin-bottom: 10px; 
+  }
 
 section .new {
     position: absolute;
