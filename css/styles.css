@@ -47,7 +47,7 @@ header {
 }
 
 .headerbottom .ligne2 {
-    font-size: 1,7rem;
+    font-size: 130%;
     font-weight: lighter;
     width: 100%;
     text-align: center;
@@ -152,15 +152,10 @@ section {
 }
 
 section h2 {
-    padding-left: 1em;
-}
-
-.photo {
-    width: 100%;
-    height: 12em;
-    border-radius: 15px 15px 0px 0px;
-    text-align: center;
-    object-fit: cover;
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding: 6vh 0vw 5vh 5vw;
 }
 
 .sectionLabel {
@@ -203,6 +198,19 @@ section h2 {
     transition: opacity 1.5s;
   }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.photo {
+    width: 100%;
+    height: 12em;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    object-fit: cover;
+}
+
 .photoMenu {
     width: 100vw;
     height: 35vh;
@@ -220,7 +228,7 @@ section h2 {
     margin-bottom: 10px; 
   }
 
-  section .new {
+section .new {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -259,3 +267,4 @@ footer img {
 .contact {
     color: white;
   }
+
