@@ -179,9 +179,7 @@ section h2 {
     text-decoration: none;
   }
 
-
-
-  .heart1 {
+.heart1 {
     position: absolute;
     cursor: pointer;
     opacity: 0;
@@ -227,7 +225,7 @@ section h2 {
     margin-bottom: 10px; 
   }
 
-section .new {
+  section .new {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -237,7 +235,7 @@ section .new {
     background: #99E2D0;
     color: #16a072;
     padding: 5px 8px 5px 8px;
-}
+  }
 
 
 footer {
@@ -250,7 +248,7 @@ footer {
 
   footer img {
     width: 150px;
-    
+    filter: invert(100%)
   }
 
 .footerLogo {
