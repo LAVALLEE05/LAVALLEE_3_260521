@@ -90,20 +90,21 @@ h2 {
 
 .function {
     display: flex;
-  flex-direction: column;
-  padding-bottom: 40px;
-  margin-left: 1rem;
-  align-items: center;   
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-left: 1rem;
+    padding: 0vw 4vw 4vw 4vw;
+    align-items: center;   
 }
 
 .insideFunction {
     display: flex;
+    align-items: center;
     height: 70px;
     width: 90%;
     border-radius: 25px 15px 15px 25px;
     margin-bottom: 3vh;
     background-color: #f6f6f6;
-    align-items: center;
     box-shadow: 3px 3px 10px 1px #d4d4d4;
 }
 
@@ -116,7 +117,7 @@ h2 {
     color: #9356DC;
 }
 
-  .textFunction {
+.textFunction {
     padding-left: 20px;
     font-size: 1rem;
 }
@@ -156,12 +157,15 @@ section {
 }
 
 section h2 {
-    padding-left: 1em;
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding: 6vh 0vw 5vh 5vw;
 }
 
 .photo {
     width: 100%;
-    height: 12em;
+    height: 13em;
     border-radius: 15px 15px 0px 0px;
     text-align: center;
     object-fit: cover;
@@ -171,7 +175,7 @@ section h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
   a {
     color: black;
@@ -245,7 +249,7 @@ footer {
     line-height: 2rem;
   }
 
-  footer img {
+footer img {
     width: 150px;
     filter: invert(100%)
   }
