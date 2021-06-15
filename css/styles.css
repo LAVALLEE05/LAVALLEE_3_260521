@@ -85,14 +85,15 @@ h2 {
     font-size: 1.7rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
+    margin-left: 3rem;
 }
 
 .function {
     display: flex;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     align-items: center;
-    margin-left: 6rem;
+    margin-left: 9rem;
 }
 
 .insideFunction {
@@ -109,15 +110,16 @@ h2 {
 .insideFunction:hover {
     cursor: pointer;
     background-color: #f2eafb;
+    box-shadow: 10px 10px 10px 1px #d4d4d4;
 }
     
 .insideFunction:hover .logoFunction {
     color: #9356DC;
-  }
+}
 
 .textFunction {
     padding-left: 20px;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .number {
@@ -158,18 +160,19 @@ section h2 {
     font-size: 1.7rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
+    margin-left: 3rem;
 }
 
 .sectionLabel {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  a {
+a {
     color: black;
     text-decoration: none;
-  }
+}
 
 .heart1 {
     position: absolute;
@@ -181,7 +184,7 @@ section h2 {
     bottom: 25px;
     right: 20px;
     cursor: pointer;
-  }
+}
   
 .heart2 {
     position: absolute;
@@ -193,12 +196,12 @@ section h2 {
     font-size: 25px;
     bottom: 25px;
     right: 20px;
-  }
+}
 
 .heart2:hover {
     opacity: 1;
     transition: opacity 1.5s;
-  }
+}
 
 a {
     color: black;
@@ -207,7 +210,17 @@ a {
 
 .labelText .labelText1 {
     font-weight: bold;
-  }
+}
+
+.insideLabel {
+    position: relative;
+    width: 90vw;
+    height: 38vh;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 16px #0000002e;
+    margin-bottom: 10px;
+}
 
 .photo {
     width: 100%;
@@ -218,21 +231,12 @@ a {
 }
 
 .photoMenu {
-    width: 100vw;
+    width: 100%;
     height: 35vh;
     text-align: center;
     object-fit: cover;
 }
 
-.insideLabel {
-    position: relative;
-    width: 90vw;
-  height: 38vh;
-  border-radius: 15px;
-  background-color: white;
-  box-shadow: 0 0 16px #0000002e;
-  margin-bottom: 10px;
-}
 
 section .new {
     position: absolute;
@@ -244,7 +248,7 @@ section .new {
     background: #99E2D0;
     color: #16a072;
     padding: 5px 8px 5px 8px;
-  }
+}
 
 
 footer {
@@ -258,12 +262,12 @@ footer {
 footer img {
     width: 150px;
     filter: invert(100%)
-  }
+}
 
 .footerLogo {
     width: 1rem;
     margin-right: 20px;
-  }
+}
 
 .footerLigne {
     display: flex;
@@ -273,7 +277,7 @@ footer img {
 
 .contact {
     color: white;
-  }
+}
 
 
 
