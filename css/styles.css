@@ -252,11 +252,12 @@ section .new {
 
 
 footer {
-    padding-left: 4em;
-    padding-top: 3em;
+    padding: 4em;
+    
     background-color: #353535;
     color: white;
     line-height: 2rem;
+    
 }
 
 footer img {
