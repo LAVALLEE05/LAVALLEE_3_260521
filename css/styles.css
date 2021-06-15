@@ -221,11 +221,12 @@ a {
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 10px;
 }
+    
 
 .photo {
-    width: 100%;
+    width:100%;
     height: 28vh;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;;
     text-align: center;
     object-fit: cover;
 }
@@ -236,7 +237,6 @@ a {
     text-align: center;
     object-fit: cover;
 }
-
 
 section .new {
     position: absolute;
@@ -492,6 +492,16 @@ footer img {
     .labelText .labelText1 {
         font-weight: bold;
       }
+
+      .insideLabel {
+        position: relative;
+        width: 90vw;
+        height: 38vh;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 0 16px #0000002e;
+        margin-bottom: 10px;
+    }
     
     .photo {
         width: 100%;
@@ -508,15 +518,6 @@ footer img {
         object-fit: cover;
     }
     
-    .insideLabel {
-        position: relative;
-        width: 90vw;
-        height: 38vh;
-        border-radius: 15px;
-        background-color: white;
-        box-shadow: 0 0 16px #0000002e;
-        margin-bottom: 10px; 
-    }
     
     section .new {
         position: absolute;
