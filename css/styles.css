@@ -89,20 +89,21 @@ h2 {
 
 .function {
     display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-    margin-left: 1rem;
     align-items: center;
+    padding-bottom: 40px;
+    align-items: center;
+    margin-left: 6rem;
 }
 
 .insideFunction {
     display: flex;
     height: 70px;
-    width: 90%;
+    width: 30%;
     border-radius: 25px 15px 15px 25px;
     margin-bottom: 2em;
     background-color: #f6f6f6;
     align-items: center;
+    box-shadow: 3px 3px 10px 1px #d4d4d4;
 }
 
 .insideFunction:hover {
@@ -113,6 +114,11 @@ h2 {
 .insideFunction:hover .logoFunction {
     color: #9356DC;
   }
+
+.textFunction {
+    padding-left: 20px;
+    font-size: 1rem;
+}
 
 .number {
     display: flex;
@@ -141,11 +147,6 @@ h2 {
     position: absolute;
     top: 20px;
     left: 30px;
-}
-
-.textFunction {
-    padding-left: 20px;
-    font-size: 1rem;
 }
 
 section {
