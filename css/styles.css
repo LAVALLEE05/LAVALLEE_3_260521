@@ -170,16 +170,9 @@ section h2 {
     justify-content: center;
 }
 
-.sectionLabel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
 a {
     color: black;
     text-decoration: none;
-    
 }
 
 .heart1 {
@@ -222,7 +215,8 @@ a {
     background-color: white;
     box-shadow: 0 px #0000002e;
     margin-bottom: 10px;
-    
+    width: 400px;
+    margin: 10px;
 }
     
 
@@ -452,10 +446,9 @@ footer img {
         padding: 6vh 0vw 5vh 5vw;
     }
     
-    .sectionLabel {
-        display: flex;
-        flex-direction: column;
+    .allsection{ 
         align-items: center;
+        flex-direction: column;
     }
     
       a {
