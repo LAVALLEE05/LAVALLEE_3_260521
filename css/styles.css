@@ -168,12 +168,12 @@ section h2 {
 .sectionLabel {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 a {
     color: black;
     text-decoration: none;
+    
 }
 
 .heart1 {
@@ -219,6 +219,7 @@ a {
     box-shadow: 0 px #0000002e;
     margin-bottom: 10px;
     max-width: 40%;
+    
 }
     
 
