@@ -125,7 +125,7 @@ h2 {
 
 .number {
     display: flex;
-     border: 2px solid #9356DC;
+    border: 2px solid #9356DC;
     border-radius: 100%;
     margin-left: -0.7rem;
     margin-right: 20px;
@@ -165,9 +165,15 @@ section h2 {
     margin-left: 3rem;
 }
 
+.allsection{
+    display: flex;
+    justify-content: center;
+}
+
 .sectionLabel {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 a {
@@ -205,20 +211,17 @@ a {
     transition: opacity 1.5s;
 }
 
-
 .labelText .labelText1 {
     font-weight: bold;
 }
 
 .insideLabel {
     position: relative;
-    width: 90em;
     height: 20em;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 px #0000002e;
     margin-bottom: 10px;
-    max-width: 40%;
     
 }
     
