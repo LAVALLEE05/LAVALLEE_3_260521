@@ -154,6 +154,7 @@ h2 {
 
 section {
     background-color: #f6f6f6;
+    
 }
 
 section h2 {
@@ -165,10 +166,8 @@ section h2 {
 }
 
 .sectionLabel {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 a {
@@ -205,10 +204,6 @@ a {
     transition: opacity 1.5s;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
 
 .labelText .labelText1 {
     font-weight: bold;
@@ -216,11 +211,11 @@ a {
 
 .insideLabel {
     position: relative;
-    width: 90vw;
-    height: 38vh;
+    width: 90em;
+    height: 20em;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 0 px #0000002e;
     margin-bottom: 10px;
     max-width: 40%;
 }
