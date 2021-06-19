@@ -168,6 +168,7 @@ section h2 {
 .sectionLabel {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 a {
