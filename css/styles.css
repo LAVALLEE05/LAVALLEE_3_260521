@@ -85,7 +85,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
-    margin-left: 41rem;
+    margin-left: 3rem;
 }
 
 .function {
@@ -106,6 +106,7 @@ h2 {
     align-items: center;
     box-shadow: 3px 3px 10px 1px #d4d4d4;
     margin: 10px 50px 20px;
+    
 }
 
 .insideFunction:hover {
@@ -162,7 +163,7 @@ section h2 {
     font-size: 1.5rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
-    margin-left: 43rem;
+    margin-left: 3rem;
 }
 
 .allsection{
@@ -211,12 +212,12 @@ a {
 
 .insideLabel {
     position: relative;
-    height: 20em;
+    height: 18em;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 px #0000002e;
     margin-bottom: 10px;
-    width: 600px;
+    width: 700px;
     margin: 10px;
 }
     
