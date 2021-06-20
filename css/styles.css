@@ -12,7 +12,7 @@ header {
 .header_logo {
     text-align: center;
     padding: 20px 0px 10px 0px;
-    height: 5vh;
+    height: 3em;
 }
   
 .logo {
@@ -218,7 +218,6 @@ a {
     margin-bottom: 10px;
     width: 600px;
     margin: 10px;
-    
 }
     
 
