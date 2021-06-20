@@ -85,7 +85,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
-    margin-left: 3rem;
+    margin-left: 41rem;
 }
 
 .function {
@@ -162,12 +162,13 @@ section h2 {
     font-size: 1.5rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
-    margin-left: 3rem;
+    margin-left: 43rem;
 }
 
 .allsection{
     display: flex;
     justify-content: center;
+    
 }
 
 a {
@@ -215,8 +216,9 @@ a {
     background-color: white;
     box-shadow: 0 px #0000002e;
     margin-bottom: 10px;
-    width: 400px;
+    width: 600px;
     margin: 10px;
+    
 }
     
 
@@ -494,7 +496,7 @@ footer img {
         font-weight: bold;
       }
 
-      .insideLabel {
+    .insideLabel {
         position: relative;
         width: 90vw;
         height: 38vh;
