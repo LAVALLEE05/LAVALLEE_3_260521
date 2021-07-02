@@ -1,5 +1,4 @@
 .loader {
-      
     border: 10px solid #9356DC; 
     border-top: 10px solid #FF79DA ;
     border-bottom: 10px solid #99E2D0;
@@ -9,11 +8,8 @@
     -webkit-animation: spin 3s linear infinite;
     -o-animation: spin 3s linear infinite ;
     animation: spin 3s linear infinite ;
-
-    -webkit-animation: spin 3000ms ease-in-out forwards;
-    animation: spin 3000ms ease-in-out forwards;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;   
+    z-index: 5;
+    
 
 
 /*placement du lodaer au milieu de la page*/
@@ -34,7 +30,6 @@
     }
 }
 
-
 @keyframes spin {
     0% {
         transform: rotate (0deg);
@@ -43,3 +38,4 @@
         transform: rotate (360deg);
     }
 }
+   
