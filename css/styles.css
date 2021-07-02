@@ -6,7 +6,6 @@ body {
 }
 
 
-
 header {
     width: 100%;
 }
@@ -285,6 +284,12 @@ footer img {
 
   
 
+.starter,
+.main,
+.desert {
+    padding: 0% 8%;
+  }
+
 .starterLabel,
 .mainLabel,
 .desertLabel {
@@ -295,8 +300,11 @@ footer img {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 3px 3px 10px 1px #d4d4d4;
   position: relative;
+  animation: slide;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
-  
+
 .starterLabel .labelMenu,
 .mainLabel .labelMenu,
 .desertLabel .labelMenu {
@@ -370,6 +378,10 @@ footer img {
   transform: rotate(360deg);
   color: white;
 }
+
+
+
+
 
 .commander {
     display: flex;
