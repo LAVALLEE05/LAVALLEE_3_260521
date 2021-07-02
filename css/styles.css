@@ -204,6 +204,7 @@ a {
 .heart2:hover {
     opacity: 1;
     transition: opacity 1.5s;
+    color: #9356DC;
 }
 
 .labelText .labelText1 {
@@ -215,7 +216,7 @@ a {
     height: 18em;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 0 px #0000002e;
+    box-shadow: 0 px black;
     margin-bottom: 10px;
     width: 700px;
     margin: 10px;
@@ -380,9 +381,6 @@ footer img {
 }
 
 
-
-
-
 .commander {
     display: flex;
     align-items: center;
@@ -401,9 +399,6 @@ footer img {
     box-shadow: 10px 10px 10px 1px #d4d4d4;
     background-image: linear-gradient(#ff93e1, #a16be0);
   }
-
-  
-
 
 
 
