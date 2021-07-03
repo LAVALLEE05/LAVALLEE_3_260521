@@ -33,7 +33,6 @@ header {
 
 .location_logo {
     margin-right: 10px;
-    
 }
 
 
@@ -44,8 +43,8 @@ header {
 
 .headerbottom .title {
     padding-top: 50px;
-    font-size: 2,7rem;
-    font-weight: 800;
+    font-size: 170%;
+    font-weight: 700;
     width: 100%;
     text-align: center;
     margin: auto;
@@ -53,7 +52,7 @@ header {
 }
 
 .headerbottom .ligne2 {
-    font-size: 130%;
+    font-size: 110%;
     font-weight: lighter;
     width: 100%;
     text-align: center;
@@ -439,6 +438,8 @@ footer img {
         flex-direction: row;
         justify-content: center;
         box-shadow: 3px 3px 10px 1px #d4d4d4;
+        font-size: 110%;
+       
     }
     
     .location_logo {
@@ -452,7 +453,7 @@ footer img {
     
     .headerbottom .title {
         padding-top: 50px;
-        font-size: 2,7rem;
+        font-size: 150%;
         font-weight: 700;
         width: 100%;
         text-align: center;
@@ -461,7 +462,7 @@ footer img {
     }
     
     .headerbottom .ligne2 {
-        font-size: 130%;
+        font-size: 100%;
         font-weight: lighter;
         width: 100%;
         text-align: center;
