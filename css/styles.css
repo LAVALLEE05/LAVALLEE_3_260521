@@ -17,7 +17,7 @@ header {
 }
   
 .logo {
-    width: 150px;
+    width: 250px;
 }
 
 .location {
@@ -27,11 +27,15 @@ header {
     flex-direction: row;
     justify-content: center;
     box-shadow: 3px 3px 10px 1px #d4d4d4;
+    font-size: 135%;
+    font-weight: 500;
 }
 
 .location_logo {
     margin-right: 10px;
+    
 }
+
 
 .headerbottom {
     background-color: #f6f6f6;
