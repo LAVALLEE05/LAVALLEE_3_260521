@@ -439,7 +439,6 @@ footer img {
         justify-content: center;
         box-shadow: 3px 3px 10px 1px #d4d4d4;
         font-size: 110%;
-       
     }
     
     .location_logo {
@@ -454,7 +453,7 @@ footer img {
     .headerbottom .title {
         padding-top: 50px;
         font-size: 150%;
-        font-weight: 700;
+        font-weight: 750;
         width: 100%;
         text-align: center;
         margin: auto;
