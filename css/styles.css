@@ -99,7 +99,7 @@ h2 {
     align-items: center;
     padding-bottom: 30px;
     align-items: center;
-    margin-left: 6rem;
+    margin-left: 7rem;
 }
 
 .insideFunction {
@@ -111,7 +111,7 @@ h2 {
     background-color: #f6f6f6;
     align-items: center;
     box-shadow: 3px 3px 10px 1px #d4d4d4;
-    margin: 10px 50px 20px;
+    margin: 10px 20px 20px;
     
 }
 
@@ -119,6 +119,7 @@ h2 {
     cursor: pointer;
     background-color: #f2eafb;
     box-shadow: 10px 10px 10px 1px #d4d4d4;
+  
 }
     
 .insideFunction:hover .logoFunction {
@@ -136,12 +137,14 @@ h2 {
     border-radius: 100%;
     margin-left: -0.7rem;
     margin-right: 20px;
-    width: 19px;
-    height: 19px;
+    width: 24px;
+    height: 24px;
     color: white;
     background-color: #9356DC;
     align-items: center;
     justify-content: center;
+    font-size: 1,9rem;
+    
 }
 
 .logo {
@@ -518,6 +521,7 @@ footer img {
         margin-bottom: 2em;
         background-color: #f6f6f6;
         align-items: center;
+    
     }
     
     .insideFunction:hover {
