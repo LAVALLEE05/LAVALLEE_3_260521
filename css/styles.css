@@ -99,7 +99,7 @@ h2 {
     align-items: center;
     padding-bottom: 30px;
     align-items: center;
-    margin-left: 8rem;
+    margin-left: 9rem;
 }
 
 .insideFunction {
@@ -117,7 +117,6 @@ h2 {
     cursor: pointer;
     background-color: #f2eafb;
     box-shadow: 10px 10px 10px 1px #d4d4d4;
-  
 }
     
 .insideFunction:hover .logoFunction {
