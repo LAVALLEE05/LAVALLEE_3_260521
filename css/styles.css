@@ -210,7 +210,7 @@ a {
 
 .heart2:hover {
     opacity: 1;
-    transition: opacity 1.5s;
+    transition: opacity 1s;
     color: #9356DC;
     
 }
@@ -623,7 +623,7 @@ footer img {
     
     .heart2:hover {
         opacity: 1;
-        transition: opacity 1s;
+        transition: opacity 1,5s;
     }
     
     a {
