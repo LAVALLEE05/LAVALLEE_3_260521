@@ -654,29 +654,18 @@ footer img {
         max-width: 100%;
     }
 
-    .insideLabel {
-        width: 40vw;
-        margin: 3vw;
-      }
     
     
-   
-    .photo {
+      .photo {
         width: 100%;
         height: 12em;
         border-radius: 15px 15px 0px 0px;
         text-align: center;
         object-fit: cover;
     }
+    
+   
 
-    .photo {
-        width: 100%;
-        height: 28vh;
-        border-radius: 15px 15px 0px 0px;
-        text-align: center;
-        -o-object-fit: cover;
-           object-fit: cover;
-      }
       
     
     .photoMenu {
@@ -743,5 +732,6 @@ footer img {
     }
     
     
+
 ]
     
