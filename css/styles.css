@@ -66,16 +66,16 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0.5em 2em 0.5em 2em;
-    height: 30px;
-    width: 190px;
+    height: 40px;
+    width: 200px;
     border-radius: 50px;
     color: white;
     background-image: linear-gradient(#FF79DA, #9356DC);
     margin: auto;
     margin-bottom: 30px;
     box-shadow: 3px 3px 10px 1px #d4d4d4;
-    font-size: 1,8rem;
-    font-weight: 700;
+    font-size: 1,7rem;
+    font-weight: 720;
   }
 
 .headerbottom .explore:hover {
@@ -461,7 +461,7 @@ footer img {
     
     .headerbottom {
         background-color: #f6f6f6;
-        height: 350px;
+        height: 280px;
     }
     
     .headerbottom .title {
