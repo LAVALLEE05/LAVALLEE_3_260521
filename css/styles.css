@@ -53,7 +53,7 @@ header {
 }
 
 .headerbottom .ligne2 {
-    font-size: 110%;
+    font-size: 100%;
     font-weight: lighter;
     width: 100%;
     text-align: center;
@@ -66,8 +66,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0.5em 2em 0.5em 2em;
-    height: 50px;
-    width: 200px;
+    height: 30px;
+    width: 190px;
     border-radius: 50px;
     color: white;
     background-image: linear-gradient(#FF79DA, #9356DC);
@@ -466,8 +466,8 @@ footer img {
     
     .headerbottom .title {
         padding-top: 50px;
-        font-size: 150%;
-        font-weight: 750;
+        font-size: 140%;
+        font-weight: 700;
         width: 100%;
         text-align: center;
         margin: auto;
@@ -475,9 +475,9 @@ footer img {
     }
     
     .headerbottom .ligne2 {
-        font-size: 1.15rem;
+        font-size: 1,7rem;
         font-weight: lighter;
-        width: 90vw;
+        width: 80%;
         text-align: center;
         margin: auto;
         margin-bottom: 20px;
@@ -488,7 +488,7 @@ footer img {
         align-items: center;
         justify-content: center;
         padding: 0.5em 2em 0.5em 2em;
-        height: 50px;
+        height: 40px;
         width: 200px;
         border-radius: 50px;
         color: white;
@@ -496,6 +496,8 @@ footer img {
         margin: auto;
         margin-bottom: 20px;
         box-shadow: 3px 3px 10px 1px #d4d4d4;
+        font-size: 1,7rem;
+        font-weight: 720;
     }
     
     .headerbottom .explore:hover {
