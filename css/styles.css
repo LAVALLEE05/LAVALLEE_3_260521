@@ -533,7 +533,11 @@ footer img {
         margin-bottom: 2em;
         background-color: #f6f6f6;
         align-items: center;
-    
+    }
+
+    .textFunction {
+        padding-left: 20px;
+        font-size: 1,4rem;
     }
     
     .insideFunction:hover {
@@ -574,10 +578,7 @@ footer img {
         left: 30px;
     }
     
-    .textFunction {
-        padding-left: 20px;
-        font-size: 1rem;
-    }
+   
     
     section {
         background-color: #f6f6f6;
@@ -587,7 +588,7 @@ footer img {
         margin: 0;
         font-size: 1.7rem;
         font-weight: bolder;
-        padding: 6vh 0vw 5vh 5vw;
+        padding: 6vh 0vw 5vh 7vw;
     }
     
     .allsection{
