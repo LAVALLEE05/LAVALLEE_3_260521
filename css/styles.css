@@ -608,11 +608,11 @@ footer img {
         opacity: 0;
         transform-origin: bottom;
         opacity: 1;
-        font-size: 30px;
+        font-size: 20px;
         bottom: 25px;
         right: 20px;
         cursor: pointer;
-        margin-bottom: 0,5rem;
+        margin-bottom: 1rem;
     }
       
     .heart2 {
@@ -625,7 +625,7 @@ footer img {
         font-size: 30px;
         bottom: 25px;
         right: 20px;
-        
+        margin-bottom: 1rem;
     }
     
     .heart2:hover {
@@ -651,8 +651,8 @@ footer img {
 
     .insideLabel {
         position: relative;
-        width: 90vw;
-        height: 38vh;
+        width: 92%;
+        height: 18em;
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 0 16px #0000002e;
