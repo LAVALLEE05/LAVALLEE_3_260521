@@ -27,6 +27,7 @@ header {
     flex-direction: row;
     justify-content: center;
     box-shadow: 3px 3px 10px 1px #d4d4d4;
+    box-shadow: 3px 3px 10px 1px #d4d4d4 inset;
     font-size: 135%;
     font-weight: 500;
 }
