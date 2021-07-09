@@ -513,7 +513,7 @@ footer img {
         margin: 0;
         font-size: 1.7rem;
         font-weight: bolder;
-        padding: 6vh 0vw 5vh 5vw;
+        padding: 6vh 0vw 5vh 7vw;
     }
     
     .function {
@@ -522,6 +522,7 @@ footer img {
         padding-bottom: 40px;
         margin-left: 1rem;
         align-items: center;
+        font-weight: 500;
     }
     
     .insideFunction {
