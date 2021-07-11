@@ -176,6 +176,7 @@ section h2 {
 .allsection{
     display: flex;
     justify-content: center;
+    
 }
 
 a {
@@ -226,7 +227,6 @@ a {
 .labelText2 {
     margin-left: 1em;
 }
-
 .insideLabel {
     position: relative;
     height: 18em;
@@ -234,10 +234,22 @@ a {
     background-color: white;
     box-shadow: 0 px black;
     margin-bottom: 10px;
-    width: 700px;
+    width: 600px;
     margin: 10px;
+    flex-direction: column;
 }
-    
+section .new {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #99E2D0;
+    color: #16a072;
+    padding: 5px 8px 5px 8px;
+}
+
 
 .photo {
     width:100%;
@@ -254,17 +266,6 @@ a {
     object-fit: cover;
 }
 
-section .new {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 50px;
-    font-size: 12px;
-    font-weight: bold;
-    background: #99E2D0;
-    color: #16a072;
-    padding: 5px 8px 5px 8px;
-}
 
 
 footer {
@@ -299,12 +300,47 @@ footer img {
 
 /*Pages Desktop*/
 
-  
 
-.starter,
-.main,
-.desert {
-    padding: 0% 8%;
+  @-webkit-keyframes slide {
+    0% {
+      top: 20px;
+      opacity: 0;
+    }
+    100% {
+      top: 0px;
+      opacity: 1;
+    }
+  }
+  @keyframes slide {
+    0% {
+      top: 20px;
+      opacity: 0;
+    }
+    100% {
+      top: 0px;
+      opacity: 1;
+    }
+  }
+
+
+
+
+  .starterLabel,
+  .mainLabel,
+  .desertLabel {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 3px 3px 10px 1px #d4d4d4;
+    position: relative;
+    -webkit-animation: slide;
+            animation: slide;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
   }
 
 .starterLabel,
@@ -633,10 +669,6 @@ footer img {
         transition: opacity 1,5s;
     }
     
-    a {
-        color: black;
-        text-decoration: none;
-    }
     
     .labelText .labelText1  {
         font-weight: bold;
@@ -670,9 +702,6 @@ footer img {
         object-fit: cover;
     }
     
-   
-
-      
     
     .photoMenu {
         width: 100vw;
