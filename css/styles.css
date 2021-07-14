@@ -199,29 +199,28 @@ section h2 {
 .allsection{
     display: flex;
     justify-content: center;
-   
     
 }
 
 .headerRestaurant {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .headerRestaurantTitle {
-    z-index: 9;
-    justify-content: space-around;
-    font-size: 1.8rem;
-    font-family: Shrikhand, sans-serif;
-    background-color: #f6f6f6;
-    margin-top: -30px;
-    padding: 30px 20px 0px 20px;
-    border-radius: 40px 40px 0px 0px;
-    position: relative;
-  }
-  
-  .headerRestaurantText {
-    padding: 0vw 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerRestaurantTitle {
+  z-index: 9;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  font-family: Shrikhand, sans-serif;
+  background-color: #f6f6f6;
+  margin-top: -30px;
+  padding: 30px 20px 0px 20px;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+}
+
+.headerRestaurantText {
+  padding: 0vw 2vw;
 }
 
 a {
@@ -281,7 +280,7 @@ a {
     background-color: white;
     box-shadow: 0 px black;
     margin-bottom: 10px;
-    width: 600px;
+    width: 400px;
     margin: 10px;
     flex-direction: column;
 }
@@ -434,8 +433,6 @@ footer img {
   .desert {
       padding: 0vw 8vw;
     }
-  }
-
 
   .starterLabel {
     -webkit-animation-delay: 0s;
@@ -452,6 +449,9 @@ footer img {
             animation-delay: 2s;
   }
   
+  
+
+
   .starterLabel,
   .mainLabel,
   .desertLabel {
@@ -493,7 +493,7 @@ footer img {
 .mainLabel .labelText2,
 .desertLabel .labelText1,
 .desertLabel .labelText2 {
-  width: 73vh;
+  width: 70em;
   padding-left: 2vh;
   overflow: hidden;
   white-space: nowrap;
@@ -862,7 +862,7 @@ footer img {
     .footerLigne {
         display: flex;
         flex-direction: row;
-    ]
+    }
     
     .contact {
         color: white;
@@ -882,8 +882,12 @@ footer img {
       -o-object-fit: cover;
          object-fit: cover;
     }
+
+   
+
+  }
     
     
 
-]
+
     
