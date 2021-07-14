@@ -199,6 +199,7 @@ section h2 {
 .allsection{
     display: flex;
     justify-content: center;
+   
     
 }
 
@@ -235,7 +236,7 @@ a {
     transform-origin: bottom;
     opacity: 1;
     font-size: 30px;
-    bottom: 25px;
+    bottom: 26px;
     right: 20px;
     cursor: pointer;
     
@@ -249,7 +250,7 @@ a {
     cursor: pointer;
     opacity: 0;
     font-size: 30px;
-    bottom: 25px;
+    bottom: 26px;
     right: 20px;
    
 }
