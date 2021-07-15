@@ -428,6 +428,187 @@ footer img {
     }
   }
 
+  .menus-heart1 {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transform-origin: bottom;
+    opacity: 1;
+    font-size: 24px;
+    top: 35px;
+    right: 8%;
+    cursor: pointer;
+  }
+  
+  .menus-heart2 {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transform-origin: bottom;
+    cursor: pointer;
+    font-size: 25px;
+    top: 35px;
+    right: 8%;
+  }
+  .menus-heart2:hover {
+    opacity: 1;
+    transition: opacity 1.5s;
+  }
+  .menus-heart2:hover::after {
+    content: "";
+    opacity: 1;
+  }
+
+  .heart-fill {
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .starter,
+  .main,
+  .desert {
+    padding: 0vw 4vw;
+  }
+  
+  .starterLabel {
+    animation-delay: 0s;
+  }
+  
+  .mainLabel {
+    animation-delay: 1s;
+  }
+  
+  .desertLabel {
+    animation-delay: 2s;
+  }
+
+.starterLabel,
+.mainLabel,
+.desertLabel {
+display: flex;
+justify-content: space-between;
+background-color: white;
+margin-bottom: 20px;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 3px 3px 10px 1px #d4d4d4;
+position: relative;
+animation: slide;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+.starterLabel .labelMenu,
+.mainLabel .labelMenu,
+.desertLabel .labelMenu {
+padding: 10px 10px 10px 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.starterLabel .labelText1,
+.mainLabel .labelText1,
+.desertLabel .labelText1 {
+font-weight: bolder;
+}
+
+.starterLabel .labelText1,
+.starterLabel .labelText2,
+.mainLabel .labelText1,
+.mainLabel .labelText2,
+.desertLabel .labelText1,
+.desertLabel .labelText2 {
+width: 73vw;
+padding-left: 2vw;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.starterLabel .labelAside,
+.mainLabel .labelAside,
+.desertLabel .labelAside {
+display: flex;
+align-items: flex-end;
+}
+
+.starterLabel .check,
+.mainLabel .check,
+.desertLabel .check {
+color: transparent;
+}
+
+.starterLabel:hover .labelText1,
+.starterLabel:hover .labelText2,
+.mainLabel:hover .labelText1,
+.mainLabel:hover .labelText2,
+.desertLabel:hover .labelText1,
+.desertLabel:hover .labelText2 {
+cursor: pointer;
+transition: width 1s ease-in;
+width: 65vw;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.starterLabel:hover .check,
+.mainLabel:hover .check,
+.desertLabel:hover .check {
+display: flex;
+width: 15vw;
+align-items: center;
+justify-content: center;
+border-radius: 0px 15px 15px 0px;
+color: #99E2D0;
+background-color: #99E2D0;
+}
+
+.starterLabel:hover .check i,
+.mainLabel:hover .check i,
+.desertLabel:hover .check i {
+transition: transform 0.8s;
+transform: rotate(360deg);
+color: white;
+}
+
+.starterLabel {
+opacity: 0;
+animation-delay: 0s;
+}
+
+.mainLabel {
+opacity: 0;
+animation-delay: 1s;
+}
+
+.desertLabel {
+opacity: 0;
+animation-delay: 2s;
+}
+.labelAside {
+display: flex;
+align-items: flex-end;
+}
+
+.commander {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+width: 170px;
+margin: 50px auto;
+border-radius: 25px;
+color: white;
+background-image: linear-gradient(#FF79DA, #9356DC);
+box-shadow: 3px 3px 10px 1px #d4d4d4;
+}
+.commander:hover {
+cursor: pointer;
+box-shadow: 10px 10px 10px 1px #d4d4d4;
+background-image: linear-gradient(#ff93e1, #a16be0);
+}
+
   
  
 
@@ -440,7 +621,95 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
-    .menus-heart1 {
+   
+
+    .function {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        margin-left: 1rem;
+        align-items: center;
+      }
+      
+      .insideFunction {
+        display: flex;
+        height: 70px;
+        width: 90%;
+        border-radius: 25px 15px 15px 25px;
+        margin-bottom: 3vh;
+        background-color: #f6f6f6;
+        align-items: center;
+        box-shadow: 3px 3px 10px 1px #d4d4d4;
+      }
+      .insideFunction:hover {
+        cursor: pointer;
+        background-color: #f2eafb;
+        box-shadow: 10px 10px 10px 1px #d4d4d4;
+      }
+      .insideFunction:hover .logoFunction {
+        color: #9356DC;
+      }
+      
+      .number {
+        display: flex;
+        border: 2px solid #9356DC;
+        border-radius: 100%;
+        margin-left: -0.7rem;
+        margin-right: 20px;
+        width: 19px;
+        height: 19px;
+        color: white;
+        background-color: #9356DC;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sectionLabel {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .insideLabel {
+        position: relative;
+        width: 90vw;
+        height: 38vh;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 0 16px #0000002e;
+        margin-bottom: 10px;
+      }
+
+      .sectionLabel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .photo {
+        width: 100%;
+        height: 25em
+        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+        object-fit: cover;
+      }
+
+      section .new {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 50px;
+        font-size: 12px;
+        font-weight: bold;
+        background: #99E2D0;
+        color: #16a072;
+        padding: 5px 8px 5px 8px;
+      }
+      
+      
+      
+      .menus-heart1 {
         position: absolute;
         cursor: pointer;
         opacity: 0;
@@ -471,48 +740,16 @@ footer img {
         opacity: 1;
       }
 
-      .heart1 {
-        position: absolute;
-        cursor: pointer;
-        opacity: 0;
-        transform-origin: bottom;
-        opacity: 1;
-        font-size: 24px;
-        bottom: 25px;
-        right: 20px;
-        cursor: pointer;
-      }
-      
-      .heart2 {
-        position: absolute;
-        cursor: pointer;
-        opacity: 0;
-        transform-origin: bottom;
-        cursor: pointer;
-        opacity: 0;
-        font-size: 25px;
-        bottom: 25px;
-        right: 20px;
-      }
-      .heart2:hover {
-        opacity: 1;
-        transition: opacity 1.5s;
-      }
-      .heart2:hover::after {
-        content: "";
-        opacity: 1;
-      }
-
       .heart-fill {
         background-image: linear-gradient(#FF79DA, #9356DC);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
-
+      
       .labelText .labelText1 {
         font-weight: bold;
       }
-      
+
       body {
         margin: 0;
         background-color: #f6f6f6;
@@ -520,12 +757,12 @@ footer img {
       }
       
       .photoMenu {
-        width: 100em;
-        height: 35em;
+        width: 100vw;
+        height: 35vh;
         text-align: center;
         object-fit: cover;
       }
-      
+
       .labelTitle {
         margin-top: 50px;
         border-bottom: 2px solid #99E2D0;
@@ -537,54 +774,156 @@ footer img {
       .starter,
       .main,
       .desert {
-        padding: 0vh 4vh;
+        padding: 0vw 4vw;
       }
       
-
-      .sectionLabel {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-
-      .insideLabel {
-        position: relative;
-        width: 90em;
-        height: 38em
-        border-radius: 15px;
-        background-color: white;
-        box-shadow: 0 0 16px #0000002e;
-        margin-bottom: 10px;
-      }
-
-      .photo {
-        width: 100%;
-        height: 28vh;
-        border-radius: 15px 15px 0px 0px;
-        text-align: center;
-        object-fit: cover;
+      .starterLabel {
+        animation-delay: 0s;
       }
       
-      section {
-        padding: 30px 0px 60px 0px;
+      .mainLabel {
+        animation-delay: 1s;
+      }
+      
+      .desertLabel {
+        animation-delay: 2s;
       }
 
-     
-      
-    
-    
+    .starterLabel,
+    .mainLabel,
+    .desertLabel {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 3px 3px 10px 1px #d4d4d4;
+    position: relative;
+    animation: slide;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
+.starterLabel .labelMenu,
+.mainLabel .labelMenu,
+.desertLabel .labelMenu {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.starterLabel .labelText1,
+.mainLabel .labelText1,
+.desertLabel .labelText1 {
+  font-weight: bolder;
+}
 
+.starterLabel .labelText1,
+.starterLabel .labelText2,
+.mainLabel .labelText1,
+.mainLabel .labelText2,
+.desertLabel .labelText1,
+.desertLabel .labelText2 {
+  width: 73vw;
+  padding-left: 2vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
+.starterLabel .labelAside,
+.mainLabel .labelAside,
+.desertLabel .labelAside {
+  display: flex;
+  align-items: flex-end;
+}
 
+.starterLabel .check,
+.mainLabel .check,
+.desertLabel .check {
+  color: transparent;
+}
+
+.starterLabel:hover .labelText1,
+.starterLabel:hover .labelText2,
+.mainLabel:hover .labelText1,
+.mainLabel:hover .labelText2,
+.desertLabel:hover .labelText1,
+.desertLabel:hover .labelText2 {
+  cursor: pointer;
+  transition: width 1s ease-in;
+  width: 65vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.starterLabel:hover .check,
+.mainLabel:hover .check,
+.desertLabel:hover .check {
+  display: flex;
+  width: 15vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 15px 15px 0px;
+  color: #99E2D0;
+  background-color: #99E2D0;
+}
+
+.starterLabel:hover .check i,
+.mainLabel:hover .check i,
+.desertLabel:hover .check i {
+  transition: transform 0.8s;
+  transform: rotate(360deg);
+  color: white;
+}
+
+.starterLabel {
+    opacity: 0;
+    animation-delay: 0s;
+  }
+  
+  .mainLabel {
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  
+  .desertLabel {
+    opacity: 0;
+    animation-delay: 2s;
+  }
+  .labelAside {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .commander {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 170px;
+    margin: 50px auto;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 3px 3px 10px 1px #d4d4d4;
+  }
+  .commander:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 1px #d4d4d4;
+    background-image: linear-gradient(#ff93e1, #a16be0);
+  }
+
+  footer {
+    padding-left: 2em;
+    padding-top: 2em;
+    background-color: #353535;
+    color: white;
+    line-height: 2rem;
+  }
 
 }
-    
-    
-
-
 
 
 
