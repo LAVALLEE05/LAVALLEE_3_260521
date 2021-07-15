@@ -346,6 +346,7 @@ footer img {
 
 /*Pages + animations*/
 
+  
 @-webkit-keyframes disappear {
     0%, 60% {
       opacity: 1;
@@ -427,7 +428,6 @@ footer img {
     }
   }
 
- 
   .starter,
   .main,
   .desert {
@@ -449,9 +449,6 @@ footer img {
             animation-delay: 2s;
   }
   
-  
-
-
   .starterLabel,
   .mainLabel,
   .desertLabel {
@@ -470,10 +467,7 @@ footer img {
             animation-fill-mode: forwards;
   }
 
- 
-
-
-.starterLabel .labelMenu,
+  .starterLabel .labelMenu,
 .mainLabel .labelMenu,
 .desertLabel .labelMenu {
   padding: 10px 10px 10px 10px;
@@ -481,93 +475,8 @@ footer img {
   justify-content: space-between;
 }
 
-.starterLabel .labelText1,
-.mainLabel .labelText1,
-.desertLabel .labelText1 {
-  font-weight: bolder;
-}
 
-.starterLabel .labelText1,
-.starterLabel .labelText2,
-.mainLabel .labelText1,
-.mainLabel .labelText2,
-.desertLabel .labelText1,
-.desertLabel .labelText2 {
-  width: 70em;
-  padding-left: 2vh;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.starterLabel .labelAside,
-.mainLabel .labelAside,
-.desertLabel .labelAside {
-  display: flex;
-  align-items: flex-end;
-}
-
-.starterLabel .check,
-.mainLabel .check,
-.desertLabel .check {
-  color: transparent;
-}
-
-.starterLabel:hover .labelText1,
-.starterLabel:hover .labelText2,
-.mainLabel:hover .labelText1,
-.mainLabel:hover .labelText2,
-.desertLabel:hover .labelText1,
-.desertLabel:hover .labelText2 {
-  cursor: pointer;
-  transition: width 1s ease-in;
-  width: 65vw;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-
-
-.starterLabel:hover .check,
-.mainLabel:hover .check,
-.desertLabel:hover .check {
-  display: flex;
-  width: 15vw;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0px 15px 15px 0px;
-  color: #99E2D0;
-  background-color: #99E2D0;
-}
-
-.starterLabel:hover .check i,
-.mainLabel:hover .check i,
-.desertLabel:hover .check i {
-  transition: transform 0.8s;
-  transform: rotate(360deg);
-  color: white;
-}
-
-
-.commander {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 170px;
-    margin: 50px auto;
-    border-radius: 25px;
-    color: white;
-    background-image: linear-gradient(#FF79DA, #9356DC);
-    box-shadow: 3px 3px 10px 1px #d4d4d4;
-  }
-
-  .commander:hover {
-    cursor: pointer;
-    box-shadow: 10px 10px 10px 1px #d4d4d4;
-    background-image: linear-gradient(#ff93e1, #a16be0);
-  }
+ 
 
 
 
