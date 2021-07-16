@@ -123,7 +123,7 @@ h2 {
     align-items: center;
     padding-bottom: 30px;
     align-items: center;
-    margin-left: 9rem;
+    margin-left: 8rem;
 }
 
 .insideFunction {
@@ -156,7 +156,7 @@ h2 {
     display: flex;
     border: 2px solid #9356DC;
     border-radius: 100%;
-    margin-left: -0.7rem;
+    margin-left: 1rem;
     margin-right: 20px;
     width: 24px;
     height: 24px;
