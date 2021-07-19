@@ -676,7 +676,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
       .insideLabel {
         position: relative;
         width: 90vw;
-        height: 38vh;
+        height: 40vh;
         border-radius: 15px;
         background-color: white;
         box-shadow: 0 0 16px #0000002e;
@@ -1001,7 +1001,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
 
   .insideLabel {
     position: relative;
-    width: 90vw;
+    width: 80vw;
     height: 28vh;
     border-radius: 15px;
     background-color: white;
