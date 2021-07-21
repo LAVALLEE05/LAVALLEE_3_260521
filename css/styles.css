@@ -199,7 +199,9 @@ section h2 {
 .allsection {
     display: flex;
     justify-content: center;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 8em;
 }
 
 .headerRestaurant {
@@ -1248,7 +1250,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
     }
 
     footer {
-    padding-left: 2em;
+    padding-left: 6em;
     padding-top: 2em;
     background-color: #353535;
     color: white;
