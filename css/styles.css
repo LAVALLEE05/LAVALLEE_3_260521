@@ -662,7 +662,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
     align-items: center;
     padding-bottom: 30px;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 0rem;
 }
     
       
@@ -675,6 +675,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         background-color: #f6f6f6;
         align-items: center;
         box-shadow: 3px 3px 10px 1px #d4d4d4;
+       
       }
       .insideFunction:hover {
         cursor: pointer;
@@ -689,7 +690,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         display: flex;
         border: 2px solid #9356DC;
         border-radius: 100%;
-        margin-left: 1rem;
+        margin-left: -1,1rem;
         margin-right: 20px;
         width: 24px;
         height: 24px;
