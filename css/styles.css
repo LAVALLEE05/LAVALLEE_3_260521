@@ -431,6 +431,22 @@ footer img {
     }
   }
 
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 6vh 0vw 5vh 5vw;
+    margin-left: 1rem;
+}
+
+section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 6vh 0vw 5vh 5vw;
+  margin-left: 1rem;
+}
+
   .menus-heart1 {
     position: absolute;
     cursor: pointer;
@@ -467,6 +483,17 @@ footer img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+
+
+  .allsection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+    margin: 0px 15px 40px 15px;
+}
 
   .starter,
   .main,
