@@ -634,7 +634,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
 
 
 
-  /*Mobile*/
+  /*Mobiles*/
 
   @media screen and (max-width: 767px) {
 
@@ -726,7 +726,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
 
       .insideLabel {
         position: relative;
-        width: 90vw;
+        width: 100%;
         height: 40vh;
         border-radius: 15px;
         background-color: white;
