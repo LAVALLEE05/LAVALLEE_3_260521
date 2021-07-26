@@ -124,13 +124,13 @@ h2 {
     align-items: center;
     padding-bottom: 30px;
     align-items: center;
-    margin-left: 8rem;
+    margin-left: 9rem;
 }
 
 .insideFunction {
     display: flex;
     height: 80px;
-    width: 30%;
+    width: 26%;
     border-radius: 25px 15px 15px 25px;
     margin-bottom: 2em;
     background-color: #f6f6f6;
@@ -201,7 +201,7 @@ section h2 {
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 8em;
+    margin-left: 9em;
 }
 
 .headerRestaurant {
@@ -236,9 +236,9 @@ a {
     opacity: 0;
     transform-origin: bottom;
     opacity: 1;
-    font-size: 24px;
-    bottom: 26px;
-    right: 20px;
+    font-size: 26px;
+    bottom: 25px;
+    right: 19px;
     cursor: pointer;
     
 }
@@ -250,9 +250,9 @@ a {
     transform-origin: bottom;
     cursor: pointer;
     opacity: 0;
-    font-size: 25px;
-    bottom: 26px;
-    right: 20px;
+    font-size: 26px;
+    bottom: 25px;
+    right: 19px;
    
 }
 
