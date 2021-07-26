@@ -275,6 +275,7 @@ a {
 .labelText2 {
     margin-left: 1em;
 }
+
 .insideLabel {
     position: relative;
     height: 18em;
@@ -282,7 +283,7 @@ a {
     background-color: white;
     box-shadow: 0 px black;
     margin-bottom: 10px;
-    width: 400px;
+    width: 600px;
     margin: 10px;
     flex-direction: column;
 }
