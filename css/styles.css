@@ -267,13 +267,13 @@ a {
 
 .labelText .labelText1  {
     font-weight: bold;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-top: 1em;
 
 }
 
 .labelText2 {
-    margin-left: 1em;
+    margin-left: 0em;
 }
 
 .insideLabel {
