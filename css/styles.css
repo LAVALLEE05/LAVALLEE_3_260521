@@ -263,8 +263,6 @@ a {
     
 }
 
-
-
 .labelText .labelText1  {
     font-weight: bold;
     margin-left: 0em;
@@ -287,6 +285,7 @@ a {
     margin: 10px;
     flex-direction: column;
 }
+
 section .new {
     position: absolute;
     top: 15px;
@@ -1043,21 +1042,15 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         color: white;
         line-height: 2rem;
         }
-
       }  
-
-
-
-
-
-
-
 
 
 
     /*tablettes*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+  
 
   body {
     margin: 0px;
@@ -1082,9 +1075,6 @@ background-image: linear-gradient(#ff93e1, #a16be0);
 .logo {
   width: 150px;
 }
-
- 
-
 
 
 header {
@@ -1319,13 +1309,13 @@ a {
 
 .labelText .labelText1  {
     font-weight: bold;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-top: 1em;
 
 }
 
 .labelText2 {
-    margin-left: 1em;
+    margin-left: 0em;
 }
 
 .insideLabel {
