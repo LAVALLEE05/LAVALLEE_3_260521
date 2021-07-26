@@ -962,6 +962,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         .desertLabel .check {
         color: transparent;
         }
+        
 
         .starterLabel:hover .labelText1,
         .starterLabel:hover .labelText2,
@@ -981,12 +982,14 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         .mainLabel:hover .check,
         .desertLabel:hover .check {
         display: flex;
-        width: 15vw;
+        width: 15vh;
         align-items: center;
         justify-content: center;
         border-radius: 0px 15px 15px 0px;
         color: #99E2D0;
         background-color: #99E2D0;
+        
+        
         }
 
         .starterLabel:hover .check i,
@@ -995,6 +998,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         transition: transform 0.8s;
         transform: rotate(360deg);
         color: white;
+        
         }
 
         .starterLabel {
