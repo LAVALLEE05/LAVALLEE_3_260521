@@ -639,6 +639,16 @@ background-image: linear-gradient(#ff93e1, #a16be0);
 
   @media screen and (max-width: 767px) {
 
+    .loading_spinner .loading-logo {
+      width: 9em;
+      font-size: 5px;
+      color: #99E2D0;
+      -webkit-animation: spin 3000ms ease-in-out forwards;
+              animation: spin 3000ms ease-in-out forwards;
+      -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+    }
+
 
     .logo {
       width: 150px;
@@ -671,7 +681,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
   
   section h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bolder;
     padding: 6vh 0vw 5vh 5vw;
     margin-left: 0,5rem;
