@@ -678,7 +678,7 @@ background-image: linear-gradient(#ff93e1, #a16be0);
     justify-content: center;
     padding: 0.5em 2em 0.5em 2em;
     height: 30px;
-    width: 200px;
+    width: 180px;
     border-radius: 50px;
     color: white;
     background-image: linear-gradient(#FF79DA, #9356DC);
@@ -687,6 +687,18 @@ background-image: linear-gradient(#ff93e1, #a16be0);
     box-shadow: 3px 3px 10px 1px #d4d4d4;
     font-size: 1,7rem;
     font-weight: 400;
+}
+
+.location {
+  background-color: #eaeaea;
+  padding: 15px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 3px 3px 10px 1px #d4d4d4;
+  box-shadow: 3px 3px 10px 1px #d4d4d4 inset;
+  font-size: 135%;
+  font-weight: 500;
 }
 
     h2 {
