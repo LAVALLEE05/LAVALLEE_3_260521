@@ -321,6 +321,7 @@ section .new {
   width: 35px;
   margin-bottom: 5px;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 footer {
@@ -888,11 +889,11 @@ background-image: linear-gradient(#ff93e1, #a16be0);
       }
 
       .labelTitle {
-        margin-top: 50px;
-        border-bottom: 2px solid #99E2D0;
+        border-bottom: 2px solid #99E2D0 ;
         width: 35px;
         margin-bottom: 15px;
         text-transform: uppercase;
+        padding-bottom: 5px;
         
 
       }
