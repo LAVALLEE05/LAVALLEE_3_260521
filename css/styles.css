@@ -315,7 +315,13 @@ section .new {
     object-fit: cover;
 }
 
-
+.labelTitle {
+  margin-top: 50px;
+  border-bottom: 2px solid #99E2D0;
+  width: 35px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
 
 footer {
     padding: 6vh 0vw 5vh 8vw;
@@ -887,6 +893,8 @@ background-image: linear-gradient(#ff93e1, #a16be0);
         width: 35px;
         margin-bottom: 15px;
         text-transform: uppercase;
+        
+
       }
       
       .starter,
@@ -1315,13 +1323,13 @@ a {
 
 .labelText .labelText1  {
     font-weight: bold;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-top: 1em;
 
 }
 
 .labelText2 {
-    margin-left: 1em;
+    margin-left: 0em;
 }
 
 .insideLabel {
